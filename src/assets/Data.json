@@ -31,6 +31,79 @@
             "IMAGE": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot621FAR17PLfYQJV5dCykomZksj4OrzZglRd6dd2j6eXpImm3lbl-RY-Z2yiJ4-dcQBtNQrVqADqk-u-gJW6u57Oz3pnsiYj-z-DyLDxQcXO/360fx360f",
             "PRICE": 350,
             "DESCRIPTION": "High risk and high reward, the infamous AWP is recognizable by its signature report and one-shot, one-kill policy. The Operation Wildfire logo has been hand painted over a black and red base. The nail that sticks out gets the hammer"
+        },
+        {
+            "GUN": "AK-47",
+            "SKIN": "ASIIMOV",
+            "CONDITION": "FIELD-TESTED",
+            "IMAGE": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszJemkV092lnYmGmOHLPr7Vn35c18lwmO7Eu92milbl-BZsZGiiLNKdJFc8Mg7V_1S_xuzshZK97c_In3pruCJx4X_D30vgyZM--n4/360fx360f",
+            "PRICE": 30,
+            "DESCRIPTION": "Powerful and reliable, the AK-47 is one of the most popular assault rifles in the world. It is most deadly in short, controlled bursts of fire. It has been custom painted with a sci-fi design. Anyone can predict the future... a visionary shapes it"
+        },
+        {
+            "GUN": "AK-47",
+            "SKIN": "NEON REVOLUTION",
+            "CONDITION": "FIELD-TESTED",
+            "IMAGE": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszJemkV0924lZKIn-7LPr7Vn35c18lwmO7Eu9Wh3lHg-Us4MDylIIPEIVc_MlmDrALsxOe5hce7ucjOmnM3viAq4yrD30vgQUUy1Yw/360fx360f",
+            "PRICE": 20,
+            "DESCRIPTION": "Powerful and reliable, the AK-47 is one of the most popular assault rifles in the world. It is most deadly in short, controlled bursts of fire. It has been given an eclectic mix of hydrographic decals then drip painted. No suicide squad would be complete without it"
+        },
+        {
+            "GUN": "AK-47",
+            "SKIN": "Fire Serpent",
+            "CONDITION": "MINIMAL WEAR",
+            "IMAGE": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot7HxfDhjxszOeC9H_9mkhIWFg8j1OO-GqWlD6dN-teXI8oTht1i1uRQ5fWDwLYbAdVBqYVHRrwC2kO7rhpLq6J_IzXE2unFxs3-JmkG200ofZ-JxxavJKZiOt4k/360fx360f",
+            "PRICE": 570,
+            "DESCRIPTION": "Powerful and reliable, the AK-47 is one of the most popular assault rifles in the world. It is most deadly in short, controlled bursts of fire. This memento from Ruins has been painted with a fire serpent motif. If you want to survive in the streets, learn to spit fire"
+        },
+        {
+            "GUN": "★ STATTRAK™ M9 BAYONET",
+            "SKIN": "SAFARI MESH",
+            "CONDITION": "BATTLE-SCARRED",
+            "IMAGE": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-Yh8j5NqjZqX9Q5vp5j-jX7LP5iUazrl06a277I9fBcFBvM13VqQS-levohMC6vpvNmCc16SRzty3dlxHh0BhLcKUx0m8uYnFB/360fx360f",
+            "PRICE": 100,
+            "DESCRIPTION": "This is the M-9 bayonet. Originally intended to be mounted on a rifle, it is also well suited to close-quarters combat. It has been spray-painted using mesh fencing and cardboard cutouts as stencils. A predator is a predator, no matter the environment"
+        },
+        {
+            "GUN": "★ M9 BAYONET",
+            "SKIN": "CASE HARDENED",
+            "CONDITION": "WELL-WORN",
+            "IMAGE": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf3qr3czxb49KzgL-Khsj7OrfUklRc7cF4n-T--Y3nj1H6_UBuammldo_GdARsYw6CqVbtyLjt0Mfpu5jLyHFjviZzs3nbnkO2iQYMMLLSEHvXoA/360fx360f",
+            "PRICE": 250,
+            "DESCRIPTION": "This is the M-9 bayonet. Originally intended to be mounted on a rifle, it is also well suited to close-quarters combat. It has been color case-hardened through the application of wood charcoal at high temperatures. A little color never hurt anyone"
+        },
+        {
+            "GUN": "AWP",
+            "SKIN": "ACHERON",
+            "CONDITION": "MINIMAL WEAR",
+            "IMAGE": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot621FA957P3dcjFH7c6Jh4uem_vnDKnUkmld_cBOhuDG_ZjKhFWmrBZyZWnyddeXcVA3aF6D_lm-x-rv05K_tcjJzCRhuiRx4C2JmEPm10lIZ_sv26J0jS4Vrw/360fx360f",
+            "PRICE": 3,
+            "DESCRIPTION": "High risk and high reward, the infamous AWP is recognizable by its signature report and one-shot, one-kill policy. A multicolored hydrographic pattern has been applied. A weapon of woe"
+        },
+        {
+            "GUN": "AWP",
+            "SKIN": "ATHERIS",
+            "CONDITION": "FIELD-TESTED",
+            "IMAGE": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpot621FAR17PLfYQJU5cyzhr-GkvP9JrbummpD78A_3-vE9I6t0Afir0JuMWnxIdKRJAZvZF-E_FLsyLruhsS8ucmcz3Vmvj5iuygKH_-NNA/360fx360f",
+            "PRICE": 4,
+            "DESCRIPTION": "High risk and high reward, the infamous AWP is recognizable by its signature report and one-shot, one-kill policy. A striking green and blue bush viper has been hand painted over a black base. As deadly as it is beautiful"
+        },
+        {
+            "GUN": "★ KARAMBIT",
+            "SKIN": "SLAUGHTER",
+            "CONDITION": "FACTORY NEW",
+            "IMAGE": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf2PLacDBA5ciJlY20jfL2IbrummJW4NFOhujT8om70Azg_kQ6MTygdYKXJw9qMlnX_Fa3ye28gpC-vZSdynYxviZztyncmwv330_7Rx0jNA/360fx360f",
+            "PRICE": 530,
+            "DESCRIPTION": "With its curved blade mimicking a tiger's claw, the karambit was developed as part of the southeast Asian martial discipline of silat. The knife is typically used with a reverse grip, with the finger ring on the index finger. It has been painted in a zebra-stripe pattern with aluminum and chrome paints with various reflectivities, and has then been covered with a tomato red candy coat. Valeria doesn't pay Javier to ask questions... she pays him to pry out answers"
+        },
+        {
+            "GUN": "★ KARAMBIT",
+            "SKIN": "LORE",
+            "CONDITION": "FACTORY NEW",
+            "IMAGE": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf2PLacDBA5ciJl5W0nPbmMrbummRD7fp9g-7J4bP5iUazrl1rY2DzddPEdwFsYgnSqwPqyey6hZ_qvM6dm3pnunFx4n2LmxTj1x9PcKUx0uHhTF2B/360fx360f",
+            "PRICE": 1800,
+            "DESCRIPTION": "With its curved blade mimicking a tiger's claw, the karambit was developed as part of the southeast Asian martial discipline of silat. The knife is typically used with a reverse grip, with the finger ring on the index finger. It has been custom painted with knotwork."
         }
+    
     ]
 }

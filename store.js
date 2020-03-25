@@ -14,7 +14,7 @@ export const store = new Vuex.Store({
             Skin: '',
             Condition: '',
             MinPrice: 0,
-            MaxPrice: 9999
+            MaxPrice: 99999
         },
         skinsForWeapon: []
     },
