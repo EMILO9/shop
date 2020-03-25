@@ -1,6 +1,6 @@
 # shop
 
-> A Vue.js project
+> A Vue.js project https://emilo9.github.io/shop/
 
 ## Build Setup
 
