@@ -4,10 +4,9 @@
     <div class="Header">
       <div class="Logo">IDUNNO</div>
         <div class="Menu">
-          <button class="btnMenu hover" @click="goToShop"><i class="fas fa-store"></i> SHOP</button>
-          <button class="btnMenu hover" @click="goToCart"><i class="fas fa-shopping-cart"></i> CART</button>
-          <button @click="filterOn = !filterOn" class="btnMenu hover"><i class="fas fa-cog"></i> FILTERS ({{filtered}})</button>
-          <button class="btnMenu hover"><i class="fas fa-user"></i> USER</button>
+          <button :class="{red: $route.path === '/'}" class="btnMenu hover"  @click="goToShop"><i class="fas fa-store"></i> SHOP</button>
+          <button :class="{red: $route.path === '/cart'}" class="btnMenu hover" @click="goToCart"><i class="fas fa-shopping-cart"></i> CART ({{cartAmount()}})</button>
+          <button :disabled="$route.path !== '/'" :class="{red: filterOn}" @click="filterOn = !filterOn" class="btnMenu hover"><i class="fas fa-cog"></i> FILTERS ({{filtered}})</button>
         </div>
     </div>
     <div class="Content">
@@ -15,7 +14,7 @@
       <router-view/>
        </transition>
     </div>
-    <div class="Footer"></div>
+    <div class="Footer">Copyright © 2020 by idunno</div>
     </div>
     <notifications group="foo" position="bottom right" style="font-family: 'Source Sans Pro', sans-serif;" />
     <div class="Filters" v-if="filterOn">
@@ -51,8 +50,7 @@ export default {
   name: 'App',
   data () {
     return {
-      filterOn: false,
-      promoVideo: true
+      filterOn: false
     }
   },
   computed: {
@@ -68,6 +66,7 @@ export default {
   },
   methods: {
     goToCart () {
+      this.filterOn = false
       this.$router.push('cart')
     },
     goToShop () { this.$router.push('/') },
@@ -85,6 +84,10 @@ export default {
       this.$refs.Weapon.value = ''
       this.$refs.Skin.value = ''
       this.$refs.Condition.value = ''
+    },
+    cartAmount () {
+      let result = this.Cart.length <= 99 ? this.Cart.length : '99+'
+      return result
     }
   }
 }

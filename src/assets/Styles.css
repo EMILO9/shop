@@ -6,7 +6,7 @@ body {
 
 .Wrapper {
     height: 100vh;
-    width: 800px;
+    width: 1000px;
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     top: 50%;
@@ -31,6 +31,12 @@ body {
   
 .Footer {
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
 }
 .fade-enter-active,
 .fade-leave-active {
@@ -222,9 +228,9 @@ body {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.9);
-    height: 400px;
-    width: 400px;
+    background-color: rgba(0, 0, 0, 1);
+    height: 600px;
+    width: 600px;
     border: solid rgba(44, 44, 44, 0.5) 1px;
     display: grid;
     grid-template-rows: repeat(6, 1fr);
@@ -279,4 +285,19 @@ body {
     font-size: 30px;
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
+}
+.noFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    user-select: none;
+    height: 100%;
+    font-size: 30px;
+}
+
+.red {
+    color: red
 }

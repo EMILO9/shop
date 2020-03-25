@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class="shopItems">
     <div class="shopItem" @click="setSelected(item)" v-for="(item, index) in filteredProducts" :key="item+index" :style="{ backgroundImage: 'url(' + item.IMAGE + ')' }">
       {{item.GUN}} | {{item.SKIN}}
@@ -8,6 +9,10 @@
       ${{item.PRICE}}
     </div>
   </div>
+  <div class="noFound" v-if="filteredProducts.length === 0">
+    NO ITEMS FOUND.
+  </div>
+</div>
 </template>
 
 <script>
