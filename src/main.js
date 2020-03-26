@@ -6,16 +6,7 @@ import router from './router'
 import { store } from '../store'
 import './assets/Styles.css'
 import Notifications from 'vue-notification'
-// import VueLazyload from 'vue-lazyload'
 Vue.use(Notifications)
-// Vue.use(VueLazyload)
-
-// Vue.use(VueLazyload, {
-//   preLoad: 1.3,
-//   error: '',
-//   loading: '',
-//   attempt: 1
-// })
 
 Vue.config.productionTip = false
 

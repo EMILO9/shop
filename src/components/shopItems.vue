@@ -1,7 +1,7 @@
 <template>
 <div>
   <div class="shopItems">
-    <div class="shopItem" @click="setSelected(item)" v-for="(item, index) in filteredProducts" :key="item+index" :style="{ backgroundImage: 'url(' + item.IMAGE + ')' }">
+    <div class="shopItem" :class="{isSelected: itemIsInCart(item.ID)}" @click="setSelected(item)" v-for="(item, index) in filteredProducts" :key="item+index" :style="{ backgroundImage: 'url(' + item.IMAGE + ')' }">
       {{item.GUN}} | {{item.SKIN}}
       <br>
       ({{item.CONDITION}})
@@ -25,7 +25,8 @@ export default {
   computed: {
     ...mapGetters([
       'Products',
-      'Filters'
+      'Filters',
+      'Cart'
     ]),
     filteredProducts () {
       return this.Products.filter(item => item.GUN.includes(this.Filters.Weapon) && item.SKIN.includes(this.Filters.Skin) && item.CONDITION.includes(this.Filters.Condition) && item.PRICE <= this.Filters.MaxPrice && item.PRICE >= this.Filters.MinPrice)
@@ -36,6 +37,10 @@ export default {
       let getID = this.Products.indexOf(item) + 1
       this.$store.commit('setSelected', item)
       this.$router.push({ path: 'item', query: { id: getID } })
+    },
+    itemIsInCart (sentID) {
+      let check = this.Cart.some(item => item.ID === sentID)
+      return check
     }
   }
 }

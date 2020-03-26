@@ -9,7 +9,6 @@
 
 <script>
 import { mapGetters } from 'vuex'
-import Vue from 'vue'
 export default {
   name: 'selectedItem',
   data () {
@@ -23,11 +22,7 @@ export default {
   methods: {
     addToCart (item) {
       this.$store.commit('addToCart', item)
-      Vue.notify({
-        group: 'foo',
-        title: `ADDED ${item.GUN} | ${item.SKIN} (${item.CONDITION}) TO THE CART!`,
-        type: 'success'
-      })
+      this.$router.push('/')
     }
   }
 }

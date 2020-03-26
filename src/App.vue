@@ -5,8 +5,8 @@
       <div class="Logo">IDUNNO</div>
         <div class="Menu">
           <button :class="{red: $route.path === '/'}" class="btnMenu hover"  @click="goToShop"><i class="fas fa-store"></i> SHOP</button>
+          <button :disabled="$route.path !== '/'" :class="{red: filterOn}" @click="filterOn = !filterOn" class="btnMenu hover"><i class="fas fa-cog"></i> FILTERS</button>
           <button :class="{red: $route.path === '/cart'}" class="btnMenu hover" @click="goToCart"><i class="fas fa-shopping-cart"></i> CART ({{cartAmount()}})</button>
-          <button :disabled="$route.path !== '/'" :class="{red: filterOn}" @click="filterOn = !filterOn" class="btnMenu hover"><i class="fas fa-cog"></i> FILTERS ({{filtered}})</button>
         </div>
     </div>
     <div class="Content">
@@ -58,11 +58,7 @@ export default {
       'Cart',
       'skinsForWeapon',
       'Filters'
-    ]),
-    filtered () {
-      let result = this.filterOn ? 'OPEN' : 'CLOSED'
-      return result
-    }
+    ])
   },
   methods: {
     goToCart () {
