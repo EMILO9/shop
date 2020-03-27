@@ -10,7 +10,7 @@
             </div>
         </div>
     </div>
-    <div class="Checkout">CHECKOUT</div>
+    <div class="Checkout" @click="checkout">CHECKOUT</div>
 </div>
 </template>
 
@@ -24,7 +24,9 @@ export default {
   },
   computed: {
     ...mapGetters([
-      'Cart'
+      'Cart',
+      'Inventory',
+      'Products'
     ]),
     cartTotal () {
       var result = this.Cart.reduce((a, b) => a + b.PRICE, 0)
@@ -39,6 +41,24 @@ export default {
         title: `DELETED ${c.GUN} | ${c.SKIN} (${c.CONDITION}) FROM THE CART!`,
         type: 'error'
       })
+    },
+    checkout () {
+      if (this.Cart.length <= 0) {
+        Vue.notify({
+          group: 'foo',
+          title: `NO ITEMS IN THE CART.`,
+          type: 'error'
+        })
+      } else {
+        for (let item of this.Cart) {
+          this.Inventory.push(item)
+          this.Products.map(x => {
+            if (x.ID === item.ID) this.Products.splice(this.Products.indexOf(x), 1)
+          })
+        }
+        this.$store.commit('resetCart')
+        this.$router.push('profile')
+      }
     }
   }
 }

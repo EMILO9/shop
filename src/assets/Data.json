@@ -1,4 +1,60 @@
 {
+    "Weapons": [
+        "AK-47",
+        "AUG",
+        "AWP",
+        "BAYONET",
+        "BOWIE KNIFE",
+        "BUTTERFLY KNIFE",
+        "CLASSIC KNIFE",
+        "CZ75-AUTO",
+        "DESERT EAGLE",
+        "DUAL BERETTAS",
+        "FALCHION KNIFE",
+        "FAMAS",
+        "FIVE-SEVEN",
+        "FLIP KNIFE",
+        "G3SG1",
+        "GALIL AR",
+        "GLOCK-18",
+        "GUT KNIFE",
+        "HUNTSMAN KNIFE",
+        "KARAMBIT",
+        "M249",
+        "M4A1-S",
+        "M4A4",
+        "M9 BAYONET",
+        "MAC-10",
+        "MAG-7",
+        "MP5-SD",
+        "MP7",
+        "MP9",
+        "NAVAJA KNIFE",
+        "NEGEV",
+        "NOMAD KNIFE",
+        "NOVA",
+        "P2000",
+        "P250",
+        "P90",
+        "PARACORD KNIFE",
+        "PP-BIZON",
+        "R8 REVOLVER",
+        "SAWED-OFF",
+        "SCAR-20",
+        "SG 553",
+        "SHADOW DAGGERS",
+        "SKELETON KNIFE",
+        "SSG 08",
+        "STILETTO KNIFE",
+        "SURVIVAL KNIFE",
+        "TALON KNIFE",
+        "TEC-9",
+        "UMP-45",
+        "URSUS KNIFE",
+        "USP-S",
+        "XM1014"
+    ],
+    
     "Products": [
         {
             "ID": 1,
@@ -467,6 +523,42 @@
             "IMAGE": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf2PLacDBA5ciJl5W0nPbmMrbummRD7fp9g-7J4bP5iUazrl1rY2DzddPEdwFsYgnSqwPqyey6hZ_qvM6dm3pnunFx4n2LmxTj1x9PcKUx0uHhTF2B/360fx360f",
             "PRICE": 1800,
             "DESCRIPTION": "With its curved blade mimicking a tiger's claw, the karambit was developed as part of the southeast Asian martial discipline of silat. The knife is typically used with a reverse grip, with the finger ring on the index finger. It has been custom painted with knotwork."
+        },
+        {
+            "ID": 53,
+            "GUN": "★ BUTTERFLY KNIFE",
+            "SKIN": "FADE",
+            "CONDITION": "FACTORY NEW",
+            "IMAGE": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpovbSsLQJf0ebcZThQ6tCvq4GKqPH1N77ummJW4NFOhujT8om7igW1qUY6MWqmcIadcw47MFrW_FK9xbzpgZ607Z7PzSAxuXYg53-Llwv330-D9XTwcQ/360fx360f",
+            "PRICE": 900,
+            "DESCRIPTION": "This is a custom-designed balisong, commonly known as a butterfly knife. The defining characteristic of this weapon is the fan-like opening of a freely pivoting blade, allowing rapid deployment or concealment. As a result, butterfly knives are outlawed in many countries. It has been painted by airbrushing transparent paints that fade together over a chrome base coat. This isn't just a weapon, it's a conversation piece - Imogen, Arms Dealer In Training"
+        },
+        {
+            "ID": 54,
+            "GUN": "M4A4",
+            "SKIN": "HOWL",
+            "CONDITION": "FIELD-TESTED",
+            "IMAGE": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpou-6kejhjxszFJTwT09S5g4yCmfDLPr7Vn35c18lwmO7Eu9-s0AXs-RBkZmCmIoCQcQU3aVuCrFfrwee-gsO77s6bn3Bg6SF3t3bD30vgkAZ9U90/360fx360f",
+            "PRICE": 2000,
+            "DESCRIPTION": "More accurate but less damaging than its AK-47 counterpart, the M4A4 is the full-auto assault rifle of choice for CTs. It has been custom painted with the image of a snarling wolf."
+        },
+        {
+            "ID": 55,
+            "GUN": "USP-S",
+            "SKIN": "KILL CONFIRMED",
+            "CONDITION": "MINIMAL WEAR",
+            "IMAGE": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpoo6m1FBRp3_bGcjhQ09-jq5WYh8j_OrfdqWhe5sN4mOTE8bP5gVO8vywwMiukcZjEcVc5M1CG-1jtyLi9jJW97pzBmnM27nQlsSvfnkGzhU1OPeY8h6CeVxzAUEsa6pHf/360fx360f",
+            "PRICE": 70,
+            "DESCRIPTION": "A fan favorite from Counter-Strike Source, the Silenced USP Pistol has a detachable silencer that gives shots less recoil while suppressing attention-getting noise. It has been custom painted with the image of a bullet shattering a skull. 2 in the chest, 1 in the head"
+        },
+        {
+            "ID": 56,
+            "GUN": "CZ75-AUTO",
+            "SKIN": "VICTORIA",
+            "CONDITION": "FACTORY NEW",
+            "IMAGE": "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0uL3dClB5Nmyq4ORwKLLP7LWnn9u5MRjjeyPoIr031HgrUZqZWnzcdDAI1VrM1HZq1i6yb3p08e56M7Kz3Zr6yNw7GGdwUIoyGMPfw/360fx360f",
+            "PRICE": 12,
+            "DESCRIPTION": "A fully automatic variant of the CZ75, the CZ75-Auto is the ideal short-term choice for turning the tables and gaining your opponents weapon. But with very little ammo in the magazine, strong trigger discipline is required. It has been decorated with gold accents and hand-engraved with a scroll pattern."
         }
     
     ]

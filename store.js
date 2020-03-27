@@ -7,6 +7,7 @@ Vue.use(Vuex)
 export const store = new Vuex.Store({
     state: {
         Products: Data.Products,
+        Weapons: Data.Weapons,
         selectedProduct: null,
         Cart: [],
         Filters: {
@@ -16,14 +17,17 @@ export const store = new Vuex.Store({
             MinPrice: 0,
             MaxPrice: 99999
         },
-        skinsForWeapon: []
+        skinsForWeapon: [],
+        Inventory: []
     },
     getters: {
         Products: state => state.Products,
         selectedProduct: state => state.selectedProduct,
         Cart: state => state.Cart,
         Filters: state => state.Filters,
-        skinsForWeapon: state => state.skinsForWeapon
+        skinsForWeapon: state => state.skinsForWeapon,
+        Weapons: state => state.Weapons,
+        Inventory: state => state.Inventory
     },
     mutations: {
         setSelected (state, payload) {
@@ -63,6 +67,11 @@ export const store = new Vuex.Store({
             }
             if (payload.type === 'SKINS') state.Filters.Skin = payload.value
             if (payload.type === 'CONDITION') state.Filters.Condition = payload.value
-        }
+        },
+        resetCart (state) {
+            state.Cart = []
+        },
+        removeItemsFromInventory (state) {state.Inventory = [] }
+        
     }
   })

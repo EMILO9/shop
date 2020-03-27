@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import shopItems from '@/components/shopItems'
 import selectedItem from '@/components/selectedItem'
 import Cart from '@/components/Cart'
+import Profile from '@/components/Profile'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/cart',
       name: 'Cart',
       component: Cart
+    },
+    {
+      path: '/profile',
+      name: 'Profile',
+      component: Profile
     }
   ]
 })

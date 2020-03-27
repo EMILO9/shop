@@ -308,3 +308,59 @@ body {
     -webkit-box-shadow: inset 0 0 10px rgba(255, 0, 0, 0.5);
     box-shadow:         inset 0 0 10px rgba(255, 0, 0, 0.5);
 }
+
+.profilePage {
+    display: grid;
+    grid-template-rows: 150px auto;
+    gap: 10px;
+    overflow: hidden;
+    padding: 10px;
+}
+.profileOne {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: grid;
+    grid-template-columns: 150px auto;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+    grid-template-rows: 1fr;
+}
+.profileTwo {
+    padding: 10px;
+    display: grid;
+    grid-auto-rows: 160px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    overflow-y: scroll;
+}
+.profileTwo::-webkit-scrollbar { 
+    display: none; 
+}
+
+.Avatar {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    background-image: url('https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/81/818e49fa64a766026ca5e54c6038823f8598f6ff_full.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.Info {
+    display: grid;
+    grid-template-rows: 40px auto 40px;
+    gap: 10px;
+}
+.Username {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    user-select: none;
+    font-size: 30px;
+}
+.tradeURL {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    user-select: none;
+    outline: none;
+    border: solid rgba(44, 44, 44, 0.5) 1px;
+    padding: 5px;
+}
