@@ -4,7 +4,7 @@
         <div class="Avatar"></div>
         <div class="Info">
             <span class="Username">THELEGEND27</span>
-            <input type="url" class="tradeURL" placeholder="https://steamcommunity.com/tradeoffer/new/?partner=3669110&token=S4KiwskI">
+            <input ref="tradeURL" type="url" class="tradeURL" placeholder="https://steamcommunity.com/tradeoffer/new/?partner=3669110&token=S4KiwskI">
             <button @click="withDraw" class="tradeURL hover" style="cursor: pointer">WITHDRAW</button>
         </div>
     </div>
@@ -35,12 +35,26 @@ export default {
   },
   methods: {
     withDraw () {
-      Vue.notify({
-        group: 'foo',
-        title: `ITEMS WILL ARRIVE SOON!`,
-        type: 'success'
-      })
-      this.$store.commit('removeItemsFromInventory')
+      if (this.Inventory.length > 0 && this.$refs.tradeURL.value.length > 0) {
+        Vue.notify({
+          group: 'foo',
+          title: `ITEMS WILL ARRIVE SOON!`,
+          type: 'success'
+        })
+        this.$store.commit('removeItemsFromInventory')
+      } if (this.Inventory.length <= 0) {
+        Vue.notify({
+          group: 'foo',
+          title: `NO ITEMS IN INVENTORY!`,
+          type: 'error'
+        })
+      } else {
+        Vue.notify({
+          group: 'foo',
+          title: `YOU NEED TO SET YOUR TRADEURL!`,
+          type: 'error'
+        })
+      }
     }
   }
 }
